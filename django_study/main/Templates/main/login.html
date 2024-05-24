@@ -1,0 +1,19 @@
+{% extends 'main/layout.html'%}
+{% load static%}
+
+{%block title%}
+Вход/Регистрация
+{%endblock%}
+
+{% block content%}
+<form>
+    <p>Логин:</p>
+    <input type="text">
+    <p>Пароль</p>
+    <input type="password">
+    </br>
+    <button type="button">Войти</button>
+</form>
+<button type="button"><a href="/registration/">Регистрация</a></button>
+
+{% endblock%}
